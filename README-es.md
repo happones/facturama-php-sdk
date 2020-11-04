@@ -9,7 +9,7 @@ Esta librería requiere PHP 5.5 como mínimo
 
 ## Instalación de librería
 
-    composer require facturama/facturama-php-sdk:^2.0@dev
+    composer require happones/facturama-php-sdk
 
 ### Incluyendo la librería
 

@@ -12,7 +12,7 @@ This library requires PHP 5.5 as minimum
 
 ## How do I install it?
 
-    composer require facturama/facturama-php-sdk:^2.0@dev
+    composer require happones/facturama-php-sdk
 
 ### Including the Lib
 

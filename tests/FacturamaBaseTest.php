@@ -62,7 +62,7 @@ class FacturamaBaseTest extends TestCase
             ->getMock();
     }
 
-    private function expectExceptionMessageRegExp(string $string)
+    public function expectExceptionMessageRegExp(string $string)
     {
 
     }

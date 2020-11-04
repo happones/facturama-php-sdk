@@ -17,12 +17,7 @@ before_script:
   - composer update --prefer-dist --no-interaction $COMPOSER_FLAGS
 
 script:
-  - ./vendor/bin/phpunit -v -c phpunit.xml.dist
-  - ./vendor/bin/phpmd src/ text phpmd.xml.dist
-  - |
-        CHANGED_FILES=$(git diff --name-only --diff-filter=ACMRTUXB "${TRAVIS_COMMIT_RANGE}")
-        if ! echo "${CHANGED_FILES}" | grep -qE "^(\\.php_cs(\\.dist)?|composer\\.lock)$"; then EXTRA_ARGS=$(printf -- '--path-mode=intersection\n--\n%s' "${CHANGED_FILES}"); else EXTRA_ARGS=''; fi
-        vendor/bin/php-cs-fixer fix --config=.php_cs.dist -v --dry-run --stop-on-violation --using-cache=no ${EXTRA_ARGS}
+    - vendor/phpunit/phpunit/phpunit
 
 cache:
   directories:

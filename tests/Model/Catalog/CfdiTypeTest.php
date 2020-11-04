@@ -53,7 +53,7 @@ class CfdiTypeTest extends FacturamaBaseTest
             unset($cfdiTypes[$index]);
         }
 
-        $this->markTestIncomplete('CFDI types are tied to the configured account, so until there are a static test account, this check must be skipped');
+//        $this->markTestIncomplete('CFDI types are tied to the configured account, so until there are a static test account, this check must be skipped');
         $this->assertEmpty($cfdiTypes);
     }
 
@@ -65,6 +65,7 @@ class CfdiTypeTest extends FacturamaBaseTest
         $client = new Client(getenv('api_username'), getenv('api_password'));
 
         foreach ($client->get('catalogs/CfdiTypes') as $cfdiType) {
+//            var_dump($cfdiType);
             yield [$cfdiType];
         }
     }

@@ -82,7 +82,7 @@ class CfdiType implements CatalogInterface
         'value' => 'I',
     ];
     const CFDI_TYPE_PAYMENT_SUPPLEMENT = [
-        'name' => 'Complemento de Pago',
+        'name' => 'Complemento de pago',
         'nameid' => 14,
         'value' => 'P',
     ];
@@ -121,6 +121,16 @@ class CfdiType implements CatalogInterface
         'nameid' => 21,
         'value' => 'I',
     ];
+    const CFDI_TYPE_INE_FEE = [
+        'name' => 'Honorarios INE',
+        'nameid' => 22,
+        'value' => 'I',
+    ];
+    const CFDI_TYPE_LEASE_RECEIPT_INE= [
+        'name' => 'Recibo de Arrendamiento INE',
+        'nameid' => 23,
+        'value' => 'I',
+    ];
     const CFDI_TYPE_DETAILED_INVOICE = [
         'name' => 'Factura Detallista',
         'nameid' => 24,
@@ -145,6 +155,16 @@ class CfdiType implements CatalogInterface
         'name' => 'Carta Porte Comercio Exterior',
         'nameid' => 28,
         'value' => 'T',
+    ];
+    const CFDI_TYPE_THIRD_PARTY = [
+        'name' => 'Factura para terceros',
+        'nameid' => 29,
+        'value' => 'I',
+    ];
+    const CFDI_TYPE_TAX_LEGENDS = [
+        'name' => 'Factura Leyendas Fiscales',
+        'nameid' => 30,
+        'value' => 'I',
     ];
     /**
      * @var array
@@ -173,11 +193,15 @@ class CfdiType implements CatalogInterface
         self::CFDI_TYPE_SIMPLIFIED_ESTIMATION_INVOICE,
         self::CFDI_TYPE_PARTIAL_CONSTRUCTION_SERVICE,
         self::CFDI_TYPE_INE_INVOICE,
+        self::CFDI_TYPE_INE_FEE,
+        self::CFDI_TYPE_LEASE_RECEIPT_INE,
         self::CFDI_TYPE_DETAILED_INVOICE,
         self::CFDI_TYPE_PUBLIC_NOTARIES_INVOICE,
         self::CFDI_TYPE_FOREIGN_TRADE,
         self::CFDI_TYPE_CREDIT_NOTE_FOREIGN_TRADE,
         self::CFDI_TYPE_PORTE_LETTER_FOREIGN_TRADE,
+        self::CFDI_TYPE_THIRD_PARTY,
+        self::CFDI_TYPE_TAX_LEGENDS,
     ];
 
     /**

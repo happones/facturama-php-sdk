@@ -1,4 +1,8 @@
-[![Build Status](https://travis-ci.org/Facturama/facturama-php-sdk.svg?branch=master)](https://travis-ci.org/Facturama/facturama-php-sdk)
+## About
+
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/happones/facturama-php-sdk.svg?style=flat-square)](https://packagist.org/packages/happones/facturama-php-sdk)
+[![Build Status](https://travis-ci.org/happones/facturama-php-sdk.png?branch=master)](https://travis-ci.org/happones/facturama-php-sdk)
+[![Total Downloads](https://img.shields.io/packagist/dt/happones/facturama-php-sdk.svg?style=flat-square)](https://packagist.org/packages/happones/facturama-php-sdk)
 
 # Facturama SDK PHP
 

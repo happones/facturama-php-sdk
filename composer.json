@@ -1,5 +1,5 @@
 {
-    "name": "facturama/facturama-php-sdk",
+    "name": "happones/facturama-php-sdk",
     "description": "Facturama PHP SDK",
     "keywords": ["API", "PHP", "JSON", "Facturama"],
     "license": "MIT",
@@ -11,18 +11,18 @@
     "authors": [
         {
             "name": "Facturama",
-            "email": "dev@facturama.com"
+            "email": "happones@hotmail.com"
         }
     ],
     "require": {
-        "php": "^5.6|^7.0",
+        "php": "^7.1",
         "ext-curl": "*",
         "ext-openssl": "*",
-        "guzzlehttp/guzzle": "^6.2"
+        "guzzlehttp/guzzle": "^6.2|^7.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.0",
-        "phpunit/phpunit": "^5.4.3|^6.0|^7.0",
+        "phpunit/phpunit": "^7.0|^8.0|^9.0",
         "phpmd/phpmd": "^2.4.3"
     },
     "autoload": {
@@ -39,7 +39,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.0-dev"
+            "dev-master": "2.0.1-dev"
         }
     }
 }

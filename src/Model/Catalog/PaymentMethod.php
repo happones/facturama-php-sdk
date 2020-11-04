@@ -35,7 +35,7 @@ class PaymentMethod implements CatalogInterface
      * @see https://www.api.facturama.com.mx/api/catalogs/PaymentMethods
      */
     const CATALOG_PAYMENT_METHOD = [
-        self::PAYMENT_METHOD_INITIAL,
+//        self::PAYMENT_METHOD_INITIAL,
         self::PAYMENT_METHOD_DEFERRED,
         self::PAYMENT_METHOD_SINGLE,
     ];

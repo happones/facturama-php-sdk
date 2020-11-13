@@ -8,7 +8,7 @@
 
 [NOTE] This document is also available in [Spanish]
 
-This library requires PHP 5.5 as minimum
+This library requires PHP 7.1 as minimum
 
 ## How do I install it?
 
@@ -61,6 +61,7 @@ Thanks for helping!
 
 ## Contributing:
 [phansys](https://github.com/phansys)
+[happones](https://github.com/happones)
 
 [Spanish]: ./README-es.md
 [examples]: ./examples/
